@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <title>Black Coffee</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a class="logo" href=""><img src="img/logo.jpg" alt="logo" width=120px;></a>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+
+
+    </header>
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h1>Contact Us!</h1>
+                <p>Fill out the form below to get in touch with us. If we do not reply soon please feel free to use the
+                    form again, or call at the number desplayed below.</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="firstname">First name*</label>
+                        <input type="text" name="firstname" id="firstname" required class="form-element"
+                            placeholder="Bob" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last name*</label>
+                        <input type="text" name="lastname" id="lastname" required class="form-element"
+                            placeholder="Smith" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address*</label>
+                        <input type="email" name="email" id="email" required class="form-element"
+                            placeholder="bob_smithe@example.com" />
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" class="form-element"
+                            placeholder="Write a subject..." />
+                    </div>
+                    <div class="form-group full">
+                        <label for="message">Your Message</label>
+                        <textarea name="message" id="message" class="form-element"
+                            placeholder="Write us something..."></textarea>
+                    </div>
+                    <div class="submit-group">
+                        <input type="submit" value="SEND MESSAGE" />
+                    </div>
+
+
+                </form>
+            </div>
+
+            <div id="successMessage" class="success hidden">
+                Message sent successfully!
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <h3>Conatct Us</h3>
+        <ul>
+            <li>Email:<a href="mailto:smocan.incoming@fh-salzburg.ac.at?subject=New_Email">
+                    smocan.incoming@fh-salzburg.ac.at</a></li>
+            <li>Tel: +40735856243</li>
+            <li>Office Houres: 8.00 - 16.00</li>
+            <li> Adress: Puch Urstein 3-5, Salzburg</li>
+        </ul>
+
+    </footer>
+    <!--for some reason the javascript is not working because of queryselector error -->
+    <!--<script type="text/javascript" src="script.js"></script>-->
+</body>
+
+</html>
